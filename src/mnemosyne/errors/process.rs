@@ -1,0 +1,5 @@
+pub enum ProcessErrorKind {
+    MISSING_PERMISSIONS,
+    FAILED_TO_OPEN_PROCESS,
+    PROCESS_NOT_FOUND
+}
